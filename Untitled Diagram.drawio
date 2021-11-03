@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T14:30:40.302Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 YaBrowser/19.10.3.281 Yowser/2.5 Safari/537.36" etag="2Ns3HqoRJoSxiUA3itwW" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T10:58:42.523Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 YaBrowser/19.10.3.281 Yowser/2.5 Safari/537.36" etag="AoYAcxieAhf1E4X_tHzZ" version="15.6.5" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1422" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3312" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,9 +19,9 @@
             <mxPoint x="530" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-6" value="List&amp;lt;XML&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-5">
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-6" value="List&amp;lt;Acct,date&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-5">
           <mxGeometry x="-0.1714" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="3" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DUJSbAO_SeQVWcdD6BOS-7" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-3" target="DUJSbAO_SeQVWcdD6BOS-4">
@@ -52,78 +52,340 @@
             <mxPoint x="530" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-18" value="KOO" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1395" y="590" width="140" height="60" as="geometry" />
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-41" value="BO" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="440" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-21" target="DUJSbAO_SeQVWcdD6BOS-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-42" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0;exitDx=0;exitDy=27.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-41" target="DUJSbAO_SeQVWcdD6BOS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="480" as="sourcePoint" />
+            <mxPoint x="60" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-21" value="Merge Accounts" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-43" value="List&amp;lt;XML&amp;gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-42">
+          <mxGeometry x="0.1584" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-25" target="DUJSbAO_SeQVWcdD6BOS-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-44" value="Оркестратор" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-28" value="GetPayments(Account)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-27">
-          <mxGeometry x="-0.3763" relative="1" as="geometry">
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-45" value="BO" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1270" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-46" value="RAM" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-47" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-45" target="DUJSbAO_SeQVWcdD6BOS-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="1260" as="sourcePoint" />
+            <mxPoint x="-100" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-48" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-44" target="DUJSbAO_SeQVWcdD6BOS-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="1320" as="sourcePoint" />
+            <mxPoint x="-50" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-53" value="XML DOM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-48">
+          <mxGeometry x="0.1692" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-25" target="DUJSbAO_SeQVWcdD6BOS-37">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-49" value="Модуль вызова КОО" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-25" value="for i = 1 to Account.count()" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="410" width="270" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-29" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-18" target="DUJSbAO_SeQVWcdD6BOS-31">
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-51" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-44" target="DUJSbAO_SeQVWcdD6BOS-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1570" y="670" as="sourcePoint" />
-            <mxPoint x="1630" y="620" as="targetPoint" />
+            <mxPoint x="90" y="1280" as="sourcePoint" />
+            <mxPoint x="140" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-30" value="List&amp;lt;Payment&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-29">
-          <mxGeometry x="0.1454" y="-2" relative="1" as="geometry">
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-52" value="Pointer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-51">
+          <mxGeometry x="-0.2824" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-31" target="DUJSbAO_SeQVWcdD6BOS-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-31" value="&lt;span&gt;Rich Payments&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="720" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-32" value="Write XML Recodr" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="830" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-35" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="DUJSbAO_SeQVWcdD6BOS-21">
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-54" value="XML" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-46" target="DUJSbAO_SeQVWcdD6BOS-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1460" y="110" as="sourcePoint" />
-            <mxPoint x="1650" y="270" as="targetPoint" />
+            <mxPoint x="170" y="1170" as="sourcePoint" />
+            <mxPoint x="220" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-36" value="List&amp;lt;XML&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-35">
-          <mxGeometry x="0.3091" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-55" value="Оркестратор" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-37" value="Return RichedXML" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-56" value="BO" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=default;strokeColor=default;fillColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1480" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-39" value="List&amp;lt;RichedXML&amp;gt;" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-37">
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-57" value="Local Storage" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-58" value="Ref" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-56" target="DUJSbAO_SeQVWcdD6BOS-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1920" y="460" as="sourcePoint" />
-            <mxPoint x="1950" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DUJSbAO_SeQVWcdD6BOS-40" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-32" target="DUJSbAO_SeQVWcdD6BOS-25">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1230" y="710" as="sourcePoint" />
-            <mxPoint x="1280" y="660" as="targetPoint" />
+            <mxPoint x="-150" y="1470" as="sourcePoint" />
+            <mxPoint x="-100" y="1420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1300" y="865" />
-              <mxPoint x="1300" y="450" />
+              <mxPoint x="-130" y="1520" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-61" value="Модуль вызова КОО" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-62" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-55" target="DUJSbAO_SeQVWcdD6BOS-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1490" as="sourcePoint" />
+            <mxPoint x="140" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-63" value="Ref" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-62">
+          <mxGeometry x="-0.2824" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-64" value="Stream API" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-57" target="DUJSbAO_SeQVWcdD6BOS-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1380" as="sourcePoint" />
+            <mxPoint x="220" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-66" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=1;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=0.12;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-56" target="DUJSbAO_SeQVWcdD6BOS-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="1700" as="sourcePoint" />
+            <mxPoint x="-10" y="1650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-110" y="1670" />
+              <mxPoint x="190" y="1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-67" value="List&amp;lt;XML&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-66">
+          <mxGeometry x="0.1741" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-68" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-61" target="DUJSbAO_SeQVWcdD6BOS-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="1600" as="sourcePoint" />
+            <mxPoint x="200" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-69" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-49" target="DUJSbAO_SeQVWcdD6BOS-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1310" as="sourcePoint" />
+            <mxPoint x="480" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-70" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="349.99999999999955" y="1520" as="sourcePoint" />
+            <mxPoint x="479.99999999999955" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-72" value="Обработка &lt;br&gt;SQL / Stream" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-75" value="Обработка Stream" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-76" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12.0pt ; line-height: 107% ; font-family: &amp;quot;times new roman&amp;quot; , serif&quot;&gt;Обогатитель&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-77" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-78" value="while !BO.Accounts.end()&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1340" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-79" target="DUJSbAO_SeQVWcdD6BOS-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-79" value="getAccount(i)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.968;exitY=0.402;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-81" target="DUJSbAO_SeQVWcdD6BOS-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-81" value="BO DOM" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1540" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-82" target="DUJSbAO_SeQVWcdD6BOS-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-82" value="for 0 to xml.count()" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1060" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-83" target="DUJSbAO_SeQVWcdD6BOS-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-83" value="Create DOM Document" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-84" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-83" target="DUJSbAO_SeQVWcdD6BOS-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="1460" as="sourcePoint" />
+            <mxPoint x="1060" y="1410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="1210" />
+              <mxPoint x="740" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-89" target="DUJSbAO_SeQVWcdD6BOS-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-89" value="while !Account.paymnt.end()&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1710" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-91" value="KOO JSON Object" style="shape=card;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1830" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-93" target="DUJSbAO_SeQVWcdD6BOS-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-93" target="DUJSbAO_SeQVWcdD6BOS-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-93" value="getKoo(Account)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-95" target="DUJSbAO_SeQVWcdD6BOS-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-95" target="DUJSbAO_SeQVWcdD6BOS-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-95" value="Account" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1540" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-102" target="DUJSbAO_SeQVWcdD6BOS-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-102" value="getPayment(i)" style="whiteSpace=wrap;html=1;labelBackgroundColor=rgba(255, 255, 255, 1);" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-105" target="DUJSbAO_SeQVWcdD6BOS-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-105" target="DUJSbAO_SeQVWcdD6BOS-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-105" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1870" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-110" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-91" target="DUJSbAO_SeQVWcdD6BOS-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="1950" as="sourcePoint" />
+            <mxPoint x="1650" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-111" target="DUJSbAO_SeQVWcdD6BOS-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-111" value="Select Payment from KOO where ..." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-112" target="DUJSbAO_SeQVWcdD6BOS-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-112" target="DUJSbAO_SeQVWcdD6BOS-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-112" target="DUJSbAO_SeQVWcdD6BOS-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="2035" />
+              <mxPoint x="1640" y="2635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-112" value="Payments&lt;br&gt;1..n" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2010" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-114" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.012;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-111" target="DUJSbAO_SeQVWcdD6BOS-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="1900" as="sourcePoint" />
+            <mxPoint x="1410" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-115" value="XPath" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-114">
+          <mxGeometry x="-0.1903" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-116" target="DUJSbAO_SeQVWcdD6BOS-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-116" value="getFirstPayment" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-119" target="DUJSbAO_SeQVWcdD6BOS-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-119" value="Rich BO Payment" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-122" target="DUJSbAO_SeQVWcdD6BOS-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-130" value="Mahed = true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-126">
+          <mxGeometry x="-0.2814" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-122" target="DUJSbAO_SeQVWcdD6BOS-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-122" value="Check Mached&amp;nbsp; Payment" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-125" target="DUJSbAO_SeQVWcdD6BOS-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-125" value="Set of Used Payment" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="2330" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-127" value="&lt;h1&gt;Used payments&lt;/h1&gt;&lt;p&gt;key: KOO Payment Cash&lt;/p&gt;&lt;p&gt;Value: bool Mached, Account, xmlName&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="2250" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-128" target="DUJSbAO_SeQVWcdD6BOS-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1450" y="2620" />
+              <mxPoint x="1450" y="2397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-131" value="Mached = false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="DUJSbAO_SeQVWcdD6BOS-129">
+          <mxGeometry x="-0.21" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-128" value="Check not Mached Payment" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=default;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-133" target="DUJSbAO_SeQVWcdD6BOS-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-133" target="DUJSbAO_SeQVWcdD6BOS-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-133" value="if payment not mached" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2170" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" edge="1" parent="1" source="DUJSbAO_SeQVWcdD6BOS-137" target="DUJSbAO_SeQVWcdD6BOS-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUJSbAO_SeQVWcdD6BOS-137" value="getNextPayment()" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
