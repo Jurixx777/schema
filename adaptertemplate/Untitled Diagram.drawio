@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T13:35:39.859Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 YaBrowser/19.10.3.281 Yowser/2.5 Safari/537.36" etag="0HgVKfBmkI2Hc8eO6GQa" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T09:43:49.131Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 YaBrowser/19.10.3.281 Yowser/2.5 Safari/537.36" etag="jrmpMt7zcD9VL5PIaUPS" version="15.7.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1944" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,17 +140,17 @@
             <mxPoint x="-340" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xTyq6H0Zb5hwOV81OT_t-65" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControllerProcessor&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ process(Type): ProcResult&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-170" y="-950" width="190" height="140" as="geometry" />
+        <mxCell id="xTyq6H0Zb5hwOV81OT_t-65" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControllerProcessor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ process(): ProcResult&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-190" y="-950" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="xTyq6H0Zb5hwOV81OT_t-66" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RequestProcessor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- requestDataService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# logic(): ProcResult&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ process(): override ProcResult&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="130" y="-700" width="240" height="105" as="geometry" />
+        <mxCell id="xTyq6H0Zb5hwOV81OT_t-66" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RequestProcessor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# logic(): ProcResult&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ process(): override ProcResult&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="175" y="-701.5" width="240" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="xTyq6H0Zb5hwOV81OT_t-67" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;LogicProcessor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- remoteCallingSupporter&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;# logic(): ProcResult @Override&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-165" y="-750" width="180" height="90" as="geometry" />
+        <mxCell id="xTyq6H0Zb5hwOV81OT_t-67" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;LogicProcessor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;# logic(): ProcResult @Override&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-180" y="-694" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="xTyq6H0Zb5hwOV81OT_t-68" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RestController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ controllerProcesor: ControllerProcessor&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ @Request Mapping methodName: ResponseEntity&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-600" y="-694" width="300" height="90" as="geometry" />
+        <mxCell id="xTyq6H0Zb5hwOV81OT_t-68" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RestController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ controllerProcesor: ControllerProcessor&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ @RequestMapping methodName: ResponseEntity&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-680" y="-694" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xTyq6H0Zb5hwOV81OT_t-69" value="Implements" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xTyq6H0Zb5hwOV81OT_t-66" target="xTyq6H0Zb5hwOV81OT_t-65" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -176,7 +176,7 @@
             <mxPoint x="-190" y="-550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xTyq6H0Zb5hwOV81OT_t-77" value="process()" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;dashed=1;fillColor=#E6E6E6;gradientColor=none;" parent="xTyq6H0Zb5hwOV81OT_t-76" connectable="0" vertex="1">
+        <mxCell id="xTyq6H0Zb5hwOV81OT_t-77" value="&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;ControllerProcessor::&lt;/span&gt;process()" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;dashed=1;fillColor=#E6E6E6;gradientColor=none;" parent="xTyq6H0Zb5hwOV81OT_t-76" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xTyq6H0Zb5hwOV81OT_t-78" value="1..*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;dashed=1;fillColor=#E6E6E6;gradientColor=none;" parent="xTyq6H0Zb5hwOV81OT_t-76" connectable="0" vertex="1">
@@ -185,29 +185,45 @@
         <mxCell id="xTyq6H0Zb5hwOV81OT_t-79" value="" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;dashed=1;fillColor=#E6E6E6;gradientColor=none;" parent="xTyq6H0Zb5hwOV81OT_t-76" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YX-hszHRPixk2l3rXV3P-0" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xTyq6H0Zb5hwOV81OT_t-68" target="xTyq6H0Zb5hwOV81OT_t-66">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-320" y="-639" as="sourcePoint" />
-            <mxPoint x="-155" y="-695" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-80" y="-560" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YX-hszHRPixk2l3rXV3P-1" value="process()" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;dashed=1;fillColor=#E6E6E6;gradientColor=none;" connectable="0" vertex="1" parent="YX-hszHRPixk2l3rXV3P-0">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YX-hszHRPixk2l3rXV3P-2" value="1..*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;dashed=1;fillColor=#E6E6E6;gradientColor=none;" connectable="0" vertex="1" parent="YX-hszHRPixk2l3rXV3P-0">
-          <mxGeometry x="-1" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YX-hszHRPixk2l3rXV3P-3" value="" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;dashed=1;fillColor=#E6E6E6;gradientColor=none;" connectable="0" vertex="1" parent="YX-hszHRPixk2l3rXV3P-0">
-          <mxGeometry x="1" relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="YX-hszHRPixk2l3rXV3P-4" value="Tamplate A&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-300" y="-740" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YX-hszHRPixk2l3rXV3P-6" value="Tamplate B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-300" y="-560" width="110" height="30" as="geometry" />
+        <mxCell id="YX-hszHRPixk2l3rXV3P-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ControllerProcessor&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ process(): ProcResult&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1310" y="-980" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RequestProcessor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- requestDataService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# logic(): ProcResult&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ process(): override ProcResult&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1610" y="-724" width="240" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RestController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ controllerProcesor: ControllerProcessor&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ @Request Mapping methodName: ResponseEntity&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="-724" width="300" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-11" value="Implements" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YX-hszHRPixk2l3rXV3P-8" target="YX-hszHRPixk2l3rXV3P-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1560" y="-1021.25" as="sourcePoint" />
+            <mxPoint x="1630" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-13" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YX-hszHRPixk2l3rXV3P-7" target="YX-hszHRPixk2l3rXV3P-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1110" y="-880" as="sourcePoint" />
+            <mxPoint x="1270" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YX-hszHRPixk2l3rXV3P-10" target="YX-hszHRPixk2l3rXV3P-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="-669" as="sourcePoint" />
+            <mxPoint x="1580" y="-700" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-19" value="&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;ControllerProcessor::&lt;/span&gt;process()" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;dashed=1;fillColor=#E6E6E6;gradientColor=none;" connectable="0" vertex="1" parent="YX-hszHRPixk2l3rXV3P-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-20" value="1..*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;dashed=1;fillColor=#E6E6E6;gradientColor=none;" connectable="0" vertex="1" parent="YX-hszHRPixk2l3rXV3P-18">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YX-hszHRPixk2l3rXV3P-21" value="" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;dashed=1;fillColor=#E6E6E6;gradientColor=none;" connectable="0" vertex="1" parent="YX-hszHRPixk2l3rXV3P-18">
+          <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
